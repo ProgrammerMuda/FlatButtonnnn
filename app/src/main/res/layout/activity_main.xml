@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="bljr.com.flatbuttonnnn.MainActivity">
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fButtonColor="@color/fbutton_color_alizarin"
+        android:shadowColor="@color/fbutton_color_pomegranate"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp"
+        />
+
+    <info.hoang8f.widget.FButton
+        android:layout_marginTop="5dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:fButtonColor="@color/fbutton_color_sun_flower"
+        android:shadowColor="@color/fbutton_color_orange"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp"
+       />
+
+    <info.hoang8f.widget.FButton
+        android:layout_marginTop="5dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        app:fButtonColor="@color/fbutton_color_emerald"
+        android:shadowColor="@color/fbutton_color_green_sea"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp"
+       />
+
+
+
+
+</LinearLayout>
